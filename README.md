@@ -127,7 +127,7 @@ store.use(createPersistedState)
 const store = createPinia()
 store.use(
     createPersistedState({
-		    key: (id) => id,
+		key: (id) => id,
         storage: localStorage,
         debug: true
     })

@@ -26,12 +26,12 @@
 1、状态恢复：插件创建时，拉取本地存储中的数据，同步到pinia的state中。\
 利用 `store.$patch` 方法将相关数据设置到state进行状态恢复。
 
-![pEteon0.png](https://s21.ax1x.com/2025/03/07/pEteon0.png)](https://imgse.com/i/pEteon0)
+[![pEteon0.png](https://s21.ax1x.com/2025/03/07/pEteon0.png)](https://imgse.com/i/pEteon0)
 
 2、同步存储：创建监听，当state的数据发生变化时，将数据同步到本地存储中。\
 利用 `store.$subscribe` 监听在state被修改时同步数据到指定存储里。
 
-![pEteTBV.png](https://s21.ax1x.com/2025/03/07/pEteTBV.png)](https://imgse.com/i/pEteTBV)
+[![pEteTBV.png](https://s21.ax1x.com/2025/03/07/pEteTBV.png)](https://imgse.com/i/pEteTBV)
 
 ### 代码实现：
 

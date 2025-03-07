@@ -1,0 +1,23 @@
+{
+    "name": "my-plugin-pinia-persistence",
+    "version": "1.0.0",
+    "description": "Pinia的自定义持久化插件",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "pinia": "^2.1.7",
+        "vue": "^3.5.13",
+        "deep-pick-omit": "^1.2.1",
+        "destr": "^2.0.3"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^5.2.1",
+        "sass": "^1.72.0",
+        "vite": "^6.2.0"
+    }
+}

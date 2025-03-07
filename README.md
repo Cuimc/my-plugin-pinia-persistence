@@ -26,12 +26,12 @@
 1、状态恢复：插件创建时，拉取本地存储中的数据，同步到pinia的state中。\
 利用 `store.$patch` 方法将相关数据设置到state进行状态恢复。
 
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/090f0fd522af49a98686d4aa87c18eaf~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5bSU55Ko:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjY1NjA1NTM1MDc5MDcyNyJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1741935190&x-orig-sign=ml46L9iLND9MUWBRyA%2BLbrdVixY%3D)
+![image.png](https://imgse.com/i/pEteon0)
 
 2、同步存储：创建监听，当state的数据发生变化时，将数据同步到本地存储中。\
 利用 `store.$subscribe` 监听在state被修改时同步数据到指定存储里。
 
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/3e77962518154a0da115bfce1224669a~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5bSU55Ko:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjY1NjA1NTM1MDc5MDcyNyJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1741935190&x-orig-sign=DUZ95co0kX6jII4BTGsCbwHTYT0%3D)
+![image.png](https://imgse.com/i/pEteTBV)
 
 ### 代码实现：
 
